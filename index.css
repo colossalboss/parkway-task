@@ -1,0 +1,47 @@
+:root {
+  --level: 50%;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  text-align: center;
+  background: #fff;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background: #333333;
+  padding: .8rem 1rem;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  height: 65px;
+}
+
+.loader {
+  background: #555553;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  padding: .8rem;
+  border-radius: 22px
+
+}
+
+.loading-bar {
+  background: #f28332;
+  width: var(--level);
+  padding: .5rem;
+  border-radius: 22px;
+  box-shadow: 2px 0px 2px 2px #f28332;
+}
